@@ -1,3 +1,126 @@
 body{
     font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff8e1;
+    color: #222;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(90deg, #E30000, #F7D400);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #E30000;
+}
+
+header h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header h3{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* MENÚ */
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-container{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn{
+    background: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;   /* Botón redondo */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Dropdown */
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    background: #fff8e1;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+    width: 120px;
+    border: 1px solid #e0c300;
+}
+
+.menu-dropdown a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #222;
+    border-radius: 15px;
+}
+
+.menu-dropdown a:hover{
+    background: #ffcc00;
+}
+
+/* CONTENIDO */
+main{
+    padding: 30px;
+    text-align: center;
+}
+
+h2{
+    color: #0056a4;
+}
+
+/* Imágenes alineadas */
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    width: 280px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #E30000;
+}
+
+/* BOTONES BAJO LAS IMÁGENES */
+.btn{
+    display: inline-block;
+    background: #E30000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px; /* Botón redondo */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer{
+    background: #E30000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.btn.maps{
+    background: white;
+    color: #E30000;
+    border-radius: 25px;  /* Botón redondo */
+    padding: 10px 20px;
+    text-decoration: none;
 }
